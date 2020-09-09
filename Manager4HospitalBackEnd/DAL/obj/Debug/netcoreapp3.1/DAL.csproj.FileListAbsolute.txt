@@ -1,0 +1,5 @@
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs

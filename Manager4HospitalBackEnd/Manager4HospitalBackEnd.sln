@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager4HospitalBackEnd", "Manager4HospitalBackEnd\Manager4HospitalBackEnd.csproj", "{7F56E3B5-1804-4E27-97D3-22AA540C0FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{0AC0E850-9556-459F-A79C-524A48AAE649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F56E3B5-1804-4E27-97D3-22AA540C0FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F56E3B5-1804-4E27-97D3-22AA540C0FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F56E3B5-1804-4E27-97D3-22AA540C0FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F56E3B5-1804-4E27-97D3-22AA540C0FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC0E850-9556-459F-A79C-524A48AAE649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC0E850-9556-459F-A79C-524A48AAE649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC0E850-9556-459F-A79C-524A48AAE649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC0E850-9556-459F-A79C-524A48AAE649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F32390D0-EB83-4FAF-A8F8-322C7BEFD071}
+	EndGlobalSection
+EndGlobal
