@@ -1,0 +1,12 @@
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\Manager4HospitalBackEnd.exe
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.csprojAssemblyReference.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.AssemblyInfoInputs.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.AssemblyInfo.cs
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.RazorTargetAssemblyInfo.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Manager4HospitalBackEnd.StaticWebAssets.Manifest.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Manager4HospitalBackEnd.StaticWebAssets.xml
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.csproj.CopyComplete
