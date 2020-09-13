@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DAL.Models
 {
-    class Procedure
+    public class Procedure
     {
         public int ProcedureId { get; set; }
         public string Name { get; set; }

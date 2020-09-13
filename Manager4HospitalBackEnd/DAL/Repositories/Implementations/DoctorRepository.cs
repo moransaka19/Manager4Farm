@@ -7,7 +7,8 @@ using System.Text;
 
 namespace DAL.Repositories.Implementations
 {
-    class DoctorRepository : BaseRepository<Doctor>, IDoctorRepository
+
+    public class DoctorRepository : BaseRepository<Doctor>, IDoctorRepository
     {
         public DoctorRepository(string connectionString) : base(connectionString)
         {

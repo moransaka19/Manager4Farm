@@ -1,16 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Autofac;
+using AutoMapper;
+using System.Reflection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using DAL.Repositories;
+using DAL.Repositories.Implementations;
 
 namespace Manager4HospitalBackEnd
 {
@@ -27,6 +24,11 @@ namespace Manager4HospitalBackEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddTransient<IDoctorRepository>(_ => new DoctorRepository(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IAppointmentRepository>(_ => new AppointmentRepository(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IPersonRepository>(_ => new PersonRepository(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IProcedureRepository>(_ => new ProcedureRepository(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         public void ConfigureContainer(ContainerBuilder builder)

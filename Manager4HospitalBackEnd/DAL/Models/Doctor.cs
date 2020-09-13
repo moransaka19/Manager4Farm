@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DAL.Models
 {
-    class Doctor
+    public class Doctor
     {
         public int DoctorId { get; set; }
         public string Job { get; set; }

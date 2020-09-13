@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DAL.Repositories.Implementations
 {
-    class ProcedureRepository : BaseRepository<Procedure>, IProcedureRepository
+    public class ProcedureRepository : BaseRepository<Procedure>, IProcedureRepository
     {
         public ProcedureRepository(string connectionString)
             : base(connectionString)

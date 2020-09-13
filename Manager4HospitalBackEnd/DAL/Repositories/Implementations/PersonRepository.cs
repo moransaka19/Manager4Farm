@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DAL.Repositories.Implementations
 {
-    class PersonRepository : BaseRepository<Person>, IPersonRepository
+    public class PersonRepository : BaseRepository<Person>, IPersonRepository
     {
         public PersonRepository(string connectionString)
             : base(connectionString)

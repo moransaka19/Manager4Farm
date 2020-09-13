@@ -3,3 +3,7 @@ D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\bin\Debug\netcoreapp3.1\
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\DAL\obj\Debug\netcoreapp3.1\DAL.pdb

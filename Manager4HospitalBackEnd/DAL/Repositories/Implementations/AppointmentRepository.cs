@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DAL.Repositories.Implementations
 {
-    class AppointmentRepository : BaseRepository<Appointment>, IAppointmentRepository
+    public class AppointmentRepository : BaseRepository<Appointment>, IAppointmentRepository
     {
         public AppointmentRepository(string connectionString)
             : base(connectionString)
