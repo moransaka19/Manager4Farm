@@ -14,6 +14,26 @@ namespace DAL.Repositories.Implementations
         {
         }
 
+        public override IEnumerable<Appointment> GetAll()
+        {
+            var result = _dbConnection.Query<Appointment, Procedure, Doctor, Person, Appointment>("GetAppointments",
+                map: (a, proc, doc, pers) => 
+                {
+                    a.ProcedureId = proc.ProcedureId;
+                    a.Procedure = proc;
+                    a.DoctorId = doc.DoctorId;
+                    a.Doctor = doc;
+                    a.PersonId = pers.PersonId;
+                    a.Person = pers;
+
+                    return a;
+                },
+                splitOn: "ProcedureId,DoctorId,PersonId",
+                commandType: System.Data.CommandType.StoredProcedure);
+
+            return result;
+        }
+
         public override void Add(Appointment item)
         {
             var query = $"insert into [dbo].[Appointment]([Date], ProcedureId, DoctorId, PersonId)" +
