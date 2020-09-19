@@ -3,16 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { JournalComponent } from './journal/journal.component';
+import {HttpClientModule} from '@angular/common/http';
+import {JournalService} from './journal/journal.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JournalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [JournalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

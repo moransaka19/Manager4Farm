@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Manager4HospitalClient": {
+    "Client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Manager4HospitalClient",
+            "outputPath": "dist/Client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Manager4HospitalClient:build"
+            "browserTarget": "Client:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Manager4HospitalClient:build:production"
+              "browserTarget": "Client:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Manager4HospitalClient:build"
+            "browserTarget": "Client:build"
           }
         },
         "test": {
@@ -114,15 +114,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Manager4HospitalClient:serve"
+            "devServerTarget": "Client:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Manager4HospitalClient:serve:production"
+              "devServerTarget": "Client:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "Manager4HospitalClient"
+  "defaultProject": "Client"
 }

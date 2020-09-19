@@ -29,6 +29,15 @@ namespace Manager4HospitalBackEnd
             services.AddTransient<IAppointmentRepository>(_ => new AppointmentRepository(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IPersonRepository>(_ => new PersonRepository(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IProcedureRepository>(_ => new ProcedureRepository(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:4200",
+                                            "http://localhost:5001/api/journal");
+                    });
+            });
         }
 
         public void ConfigureContainer(ContainerBuilder builder)
@@ -47,6 +56,8 @@ namespace Manager4HospitalBackEnd
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 

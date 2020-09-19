@@ -23,7 +23,7 @@ namespace Manager4HospitalBackEnd.Controllers
             _appointmentRepository = appointmentRepository;
         }
 
-        [HttpGet]
+        [HttpGet]   
         public IEnumerable<AppointmentViewModel> Get()
         {
             return _mapper.Map<IEnumerable<AppointmentViewModel>>(_appointmentRepository.GetAll());
