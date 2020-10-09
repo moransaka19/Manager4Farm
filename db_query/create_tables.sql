@@ -5,7 +5,8 @@ create table Person
 	PersonId int primary key identity,
 	Firstname nvarchar(40),
 	Surname nvarchar(40),
-	DOB Datetime
+	DOB Datetime,
+	PathToFile char(100)
 );
 
 create table Doctor

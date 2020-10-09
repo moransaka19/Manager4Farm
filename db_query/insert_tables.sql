@@ -1,12 +1,12 @@
 use Manager4Hospital
 
-insert into Person(Firstname, Surname, DOB)
+insert into Person(Firstname, Surname, DOB, PathToFile)
 values
-('PersonName1', 'PersonSurname1', '2001-1-1'),
-('PersonName2', 'PersonSurname2', '2002-2-2'),
-('PersonName3', 'PersonSurname3', '2003-3-3'),
-('PersonName4', 'PersonSurname4', '2004-4-4'),
-('PersonName5', 'PersonSurname5', '2005-5-5')
+('PersonName1', 'PersonSurname1', '2001-1-1', 'Patient1.jpg'),
+('PersonName2', 'PersonSurname2', '2002-2-2', 'Patient2.jpg'),
+('PersonName3', 'PersonSurname3', '2003-3-3', 'Patient3.jpg'),
+('PersonName4', 'PersonSurname4', '2004-4-4', 'doctor.jfif'),
+('PersonName5', 'PersonSurname5', '2005-5-5', 'doctor2.jfif')
 
 insert into Doctor(PersonId, Job)
 values

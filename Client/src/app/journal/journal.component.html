@@ -1,4 +1,19 @@
-  <div *ngFor="let appointment of journals">
-    {{appointment.appointmentId}}
-  </div>
-<button (click)="onClick()"></button>
+<mat-table [dataSource]="journals$|async" class="table">
+  <ng-container matColumnDef="Date">
+    <mat-header-cell *matHeaderCellDef>Date</mat-header-cell>
+    <mat-cell *matCellDef="let appointment">{{appointment.date|date}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="Patient">
+    <mat-header-cell *matHeaderCellDef>Patient</mat-header-cell>
+    <mat-cell *matCellDef="let appointment">{{appointment.personSurname+ ' ' +appointment.personFirstname.substr(0, 1) + '.'}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="Procedure">
+    <mat-header-cell *matHeaderCellDef>Procedure</mat-header-cell>
+    <mat-cell *matCellDef="let appointment">{{appointment.procedureName}}</mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="tableColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: tableColumns"></mat-row>
+</mat-table>

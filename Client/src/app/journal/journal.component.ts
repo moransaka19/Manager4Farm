@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
 import {JournalService} from './journal.service';
 import {Appointment} from '../models/appointment';
 import {Observable} from 'rxjs';
@@ -10,18 +9,16 @@ import {Observable} from 'rxjs';
   styleUrls: ['./journal.component.scss']
 })
 export class JournalComponent implements OnInit {
-  journal$: Observable<Appointment[]>;
+  journals$: Observable<Appointment[]>;
   journals: Appointment[];
+  tableColumns: string[];
 
   constructor(private journalService: JournalService) {
+    this.tableColumns = ['Date', 'Patient', 'Procedure'];
   }
 
   ngOnInit(): void {
-    this.journalService.GetJournal().subscribe(value => this.journals = value);
-  }
-
-  onClick(): void {
-    console.log(this.journals);
+    this.journals$ = this.journalService.GetJournal();
   }
 
 }

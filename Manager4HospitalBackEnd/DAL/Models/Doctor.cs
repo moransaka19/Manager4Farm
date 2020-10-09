@@ -9,5 +9,6 @@ namespace DAL.Models
         public int DoctorId { get; set; }
         public string Job { get; set; }
         public int PersonId { get; set; }
+        public Person Person { get; set; }
     }
 }

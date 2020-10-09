@@ -29,8 +29,12 @@ D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\Manager4HospitalBackEnd.pdb
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\DAL.pdb
-D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.csproj.CoreCompileInputs.cache
-D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.dll
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.pdb
 D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.genruntimeconfig.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\Azure.Core.dll
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.csproj.CoreCompileInputs.cache
+D:\Project\Manager4Hospital\Manager4HospitalBackEnd\Manager4HospitalBackEnd\obj\Debug\netcoreapp3.1\Manager4HospitalBackEnd.MvcApplicationPartsAssemblyInfo.cache

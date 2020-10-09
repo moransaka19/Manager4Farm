@@ -5,6 +5,7 @@ namespace Manager4HospitalBackEnd.Models
     public class DoctorViewModel
     {
         public int DoctorId { get; set; }
+        public int PersonId { get; set; }
         public string Firstname { get; set; }
         public string Surname { get; set; }
         public DateTime DOB { get; set; }

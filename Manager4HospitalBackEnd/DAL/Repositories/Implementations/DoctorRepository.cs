@@ -14,6 +14,22 @@ namespace DAL.Repositories.Implementations
         {
         }
 
+        public override IEnumerable<Doctor> GetAll()
+        {
+            var doctors = _dbConnection.Query<Doctor, Person, Doctor>("GetDoctors",
+                map: (d, p) =>
+                {
+                    d.PersonId = p.PersonId;
+                    d.Person = p;
+
+                    return d;
+                },
+                splitOn: "PersonId",
+                commandType: System.Data.CommandType.StoredProcedure);
+
+            return doctors;
+        }
+
         public override void Add(Doctor item)
         {
             var query = $"insert into [dbo].[Doctor](Job, PersonId) " +

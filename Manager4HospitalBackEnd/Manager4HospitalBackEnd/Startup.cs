@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using DAL.Repositories;
 using DAL.Repositories.Implementations;
+using Manager4HospitalBackEnd.AzureStorage;
 
 namespace Manager4HospitalBackEnd
 {
@@ -29,6 +30,7 @@ namespace Manager4HospitalBackEnd
             services.AddTransient<IAppointmentRepository>(_ => new AppointmentRepository(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IPersonRepository>(_ => new PersonRepository(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IProcedureRepository>(_ => new ProcedureRepository(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IAzureBlobService>(_ => new AzureBlobService(Configuration["AzureBlobStorageConnection"], Configuration["AzureContainerName"]));
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(
